@@ -1,4 +1,3 @@
-from py_compile import main
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint, EarlyStopping, LearningRateMonitor, Callback
 from pytorch_lightning.loggers import WandbLogger
@@ -284,5 +283,3 @@ if __name__ == "__main__":
     wandb.finish()
     
     
-    if __name__ == "__main__":
-        main()
